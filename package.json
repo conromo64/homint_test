@@ -1,0 +1,16 @@
+{
+  "name": "pw-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testDemo": "playwright test example.spec.js --headed",
+    "testAdd": "playwright test productPageAddProduct.spec.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  }
+}
